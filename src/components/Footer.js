@@ -7,7 +7,7 @@ const Footer = ({ icon, title }) => {
     return (
         <footer className="footer">
             <div className="container">
-            <span clasName="text-muted">Place sticky footer content here.</span>
+            <span className="text-muted">Place sticky footer content here.</span>
             </div>
         </footer>
     )
