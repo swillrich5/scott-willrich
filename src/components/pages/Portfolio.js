@@ -13,32 +13,28 @@ const Portfolio = () => {
       console.log(projects);
 
     return (
+
         <Fragment>
-            {projects.map(project => (
-                <div className="card">
-                    <div className="img-container">
-                        <img alt={project.name} src={project.image} />
+            <div>
+                <h1 className="text-center mb-5">My Work</h1>
+            </div>
+            <div className="row mx-auto justify-content-around">
+                {projects.map(project => (
+                    <div className="card col-sm-12 col-md-3">
+                            <img className="card-img-top" alt={project.name} src={project.image} />
+                        <div className="card-body">
+                            <h4 className="card-title">{project.name}</h4>
+                            <p className="card-text">{project.description}</p>
+                            <a href={project.repo} class="btn btn-primary mr-3">Github</a>
+                            <a href="https://swillrich5.github.io/filmbank/" class="btn btn-primary">{project.name}</a>
+                        </div>
                     </div>
-                    <div className="content">
-                        <ul key={project.id}>
-                            <li>
-                                <strong>Name:</strong> {project.name}
-                            </li>
-                            <li>
-                                <strong>Description:</strong> {project.description}
-                            </li>
-                            <li>
-                                <strong>GitHub Repo:</strong> {project.repo}
-                            </li>
-                            <li>
-                                <strong>Deployed App:</strong> {project.deployed}
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            ))}
+                ))}
+            </div>
+
         </Fragment>
     )
 }
 
 export default Portfolio;
+
