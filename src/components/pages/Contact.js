@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from 'react'
 import emailjs from 'emailjs-com';
-import axios from 'axios';
 
 const Contact = () => {
 
