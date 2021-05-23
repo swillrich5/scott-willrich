@@ -20,13 +20,13 @@ const Portfolio = () => {
             </div>
             <div className="row mx-auto justify-content-around">
                 {projects.map(project => (
-                    <div className="card col-sm-12 col-md-3">
-                            <img className="card-img-top" alt={project.name} src={project.image} />
+                    <div key={project.id} className="card col-sm-12 col-md-3" >
+                        <img className="card-img-top" alt={project.name} src={project.image} />
                         <div className="card-body">
                             <h4 className="card-title">{project.name}</h4>
                             <p className="card-text">{project.description}</p>
-                            <a href={project.repo} class="btn btn-primary mr-3">Github</a>
-                            <a href="https://swillrich5.github.io/filmbank/" class="btn btn-primary">{project.name}</a>
+                            <a href={project.repo} className="btn btn-primary mr-3">Github</a>
+                            <a href="https://swillrich5.github.io/filmbank/" className="btn btn-primary">{project.name}</a>
                         </div>
                     </div>
                 ))}

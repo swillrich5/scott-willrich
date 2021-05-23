@@ -5,9 +5,9 @@ import '../App.css';
 
 const Footer = ({ icon, title }) => {
     return (
-        <footer className="footer">
+        <footer className="footer ">
             <div className="container">
-            <span className="text-muted">Place sticky footer content here.</span>
+            <span className="text-center">Place sticky footer content here.</span>
             </div>
         </footer>
     )

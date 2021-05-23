@@ -12,11 +12,13 @@ function App() {
         <div className="App">
           <Router>
             <Navbar />
+            <div className="container-fluid body-background fill">
               <Switch>
-                <Route exact path="/" component={About} />
-                <Route exact path="/Portfolio" component={Portfolio} />
-                <Route exact path="/Contact" component={Contact} />
+                  <Route exact path="/" component={About} />
+                  <Route exact path="/Portfolio" component={Portfolio} />
+                  <Route exact path="/Contact" component={Contact} />
               </Switch>
+            </div>
             <Footer />
           </Router>
         </div>

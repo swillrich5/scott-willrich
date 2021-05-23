@@ -19,6 +19,16 @@ body {
     color: var(--ice-blue);
 }
 
+a {
+    color: var(--ice-blue);
+}
+
+a:hover {
+    color: var(--ice-blue);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 
 /* .jumbotron {
     background-image: url("../images/floorboards.jpg");
@@ -42,6 +52,19 @@ body {
     background-color: var(--slate-blue);
     margin: 0px;
     color: var(--ice-blue);
+}
+
+.body-background {
+    background-image: url("floorboards.jpg");
+}
+
+.about-container {
+    background-color: var(--slate-blue);
+}
+
+.fill {
+    min-height: 100vh;
+    height: 100%;
 }
 
   /* Navbar */
