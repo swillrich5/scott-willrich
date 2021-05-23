@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* ------------- Global Variables ------------- */
+
+:root {
+    --ice-blue: #D4F1F1;        /* Text color throughout the page */
+    --slate-blue: #154c79;      /* Background color for header    */
+    --dark-blue: #063970;       /* Footer background and some text color */
+  }
+
+/* ---------------  global tags --------------- */
+/* Mobile first design - first set of tags apply to mobile version */
+/* See below for tags that override for tablet and larger displays */
+
+body {
+    background-color: var(--slate-blue);
+    padding: 0px;
+    margin: 0px;
+    color: var(--ice-blue);
+}
+
+
+/* .jumbotron {
+    background-image: url("../images/floorboards.jpg");
+    height: 450px;
+    color: var(--ice-blue);
+    text-align: center;
+} */
+
+.navbar,
+.btn-primary,
+.bg-primary,
+.badge-primary,
+.alert-primary {
+  background-color: var(--slate-blue);
+  color: #fff;
+}
+
+
+.container-fluid {
+    padding: 0px;
+    background-color: var(--slate-blue);
+    margin: 0px;
+    color: var(--ice-blue);
+}
+
+  /* Navbar */
+.navbar {
+  display: block;
+  text-align: center;
+}
+
+.navbar ul {
+  text-align: center;
+  justify-content: center;
+}
+
+nav {
+    color: var(--ice-blue);
+}
+
+nav a {
+    font-size: 25px;
+    color: var(--ice-blue);
+}
+
+nav a:hover {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--ice-blue);
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 30px;
+
+}
+
+.jumbotron img {
+    height: 200px;
+    margin-left: 125px;
+}
+
+main {
+    background-color: var(--slate-blue); 
+    color: var(--ice-blue);   
+}
+
+.about-me-row {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.my-work-row {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.contact-row {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+#about-me-title-div {
+    text-align: center;
+}
+
+#my-work-title-div {
+    text-align: center;
+}
+
+#contact-title-div {
+    text-align: center;
+}
+
+#about-me-content-div p {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#about-me-content-div {
+    border-top: 10px solid var(--ice-blue);
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+#my-work-content-div {
+    padding-left: 20px;
+    margin-left: 20px;
+    border-top: 10px solid var(--ice-blue);
+}
+
+#contact-content-div {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+    border-top: 10px solid var(--ice-blue);
+}
+
+
+.card {
+    background-color: var(--dark-blue);
+    width: 400px;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+#contact-content-div  {
+    font-size: 20px;
+    color: var(--ice-blue);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+}
+
+#contact-content-div a:hover {
+    font-weight: bold;
+    color: var(--ice-blue);
+    text-decoration: none;
+}
+
+#contact-content-div  a {
+    color: var(--ice-blue);
+}
+
+ul {
+    justify-content: space-around;
+}
+
+#page-bottom {
+    margin-bottom: 50px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .jumbotron img {
+        height: 250px;
+        margin-left: 175px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .jumbotron img {
+        height: 300px;
+        margin-left: 175px;
+    }
+
+    .about-me-row {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .my-work-row {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .contact-row {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    #about-me-title-div {
+        text-align: right;
+    }
+
+    #my-work-title-div {
+        text-align: right;
+    }
+
+    #contact-title-div {
+        text-align: right;
+    }
+
+    #about-me-content-div {
+        border-left: 10px solid var(--ice-blue);
+        border-top: none;
+        padding-left: 30px;
+    }
+    
+    #my-work-content-div {
+        border-left: 10px solid var(--ice-blue);
+        border-top: none;
+        /* margin-left: 20px; */
+        padding-left: 30px;
+    }
+    
+    #contact-content-div {
+        border-left: 10px solid var(--ice-blue);
+        border-top: none;
+        padding-left: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+     
+    }
+
+}
