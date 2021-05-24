@@ -10,7 +10,7 @@ const Portfolio = () => {
         setProjects(apps);
       }, []);
 
-      console.log(projects);
+    //   console.log(projects);
 
     return (
 

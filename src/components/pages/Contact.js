@@ -14,7 +14,6 @@ const Contact = () => {
 
     const handleContactSubmit = async (e) => {
         e.preventDefault();
-        console.log({ contactEmail, contactMessage });
         var templateParams = {
             name: contactName,
             email: contactEmail,

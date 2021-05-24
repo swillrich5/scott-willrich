@@ -7,7 +7,7 @@ const Navbar = ({ icon, title }) => {
       <nav className="navbar">
         <div className="container-fluid">
           <div className="navbar-header">
-            <h1 className='navbar-brand pl-3'><i className={icon}></i> {title}</h1>
+            <Link to='/'><h1 className='navbar-brand pl-3'><i className={icon}></i> {title}</h1></Link>
           </div>
           <div>
             <ul className="nav">
