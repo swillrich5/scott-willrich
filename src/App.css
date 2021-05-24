@@ -23,6 +23,10 @@ a {
     color: var(--ice-blue);
 }
 
+DownloadLink {
+    color: var(--ice-blue);
+}
+
 a:hover {
     color: var(--ice-blue);
     font-weight: bolder;
@@ -63,8 +67,8 @@ a:hover {
 }
 
 .fill {
-    min-height: 100vh;
-    height: 100%;
+    min-height: 90%;
+    height: 90%;
 }
 
   /* Navbar */

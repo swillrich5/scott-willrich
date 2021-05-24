@@ -1,5 +1,6 @@
-import React, { Fragment, useState } from 'react'
+import React, { useState } from 'react'
 import emailjs from 'emailjs-com';
+import DownloadLink from "react-download-link";
 
 const Contact = () => {
 
@@ -33,7 +34,7 @@ const Contact = () => {
 
   return (
     <div className="row py-5">  
-        <div className="container col-md-6 py-2 text-white about-container">
+        <div className="container col-md-6 col-lg-4 py-2 text-white about-container">
             <form id="contact-form" onSubmit={handleContactSubmit} >           
                 <div className="form-group">
                     <div>
@@ -75,10 +76,15 @@ const Contact = () => {
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
-            <p className="mt-4">Also, please check out my GitHub repo and my LinkedIn profile:</p>
+            <p className="mt-4">Also, please check out my LinkedIn profile, GitHub repo, and resume:</p>
             <div className="d-flex justify-content-around mb-5">
                 <a href="https://www.linkedin.com/in/scott-willrich"><i className="fab fa-linkedin fa-5x"></i></a>
                 <a href="https://github.com/swillrich5"><i className="fab fa-github fa-5x"></i></a>
+                <DownloadLink
+                    label={<i className='far fa-address-card fa-5x' style={{color: "#D4F1F1"}}></i>}
+                    filename="ScottWillrichResume.pdf"
+                    exportFile={() => Promise.resolve("My cached data")}
+                />
             </div>        
         </div>
     </div>
