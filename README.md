@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# scott-willrich
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+scott-willrich is an application that hosts my portfolio (Scott Willrich). It uses React
 
-## Available Scripts
+## Deployed Application
+https://scott-willrich.herokuapp.com/
 
-In the project directory, you can run:
+## GitHub
 
-### `npm start`
+https://github.com/swillrich5/scott-willrich
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [Installation](#installation)
 
-### `npm test`
+* [Usage](#usage)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Technology](#technology)
 
-### `npm run build`
+* [Application Image](#Application-Image)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [License](#license)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Contributing](#Contributing)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Questions](#Questions)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you wish to run your own copy of the application, please clone the repo and install the required node modules by running:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm i
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After installing the required npm modules, the application can be started and run locally by entering:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm start
+```
+from the command line.  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technology
 
-### Analyzing the Bundle Size
+The following technology was used to build note-taker:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  * node - https://nodejs.org/en/
 
-### Making a Progressive Web App
+  * react - https://www.npmjs.com/package/react
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  * Bootstrap v4.6 - https://getbootstrap.com/docs/4.6/getting-started/introduction/
 
-### Advanced Configuration
+  * react-download-link - https://www.npmjs.com/package/react-download-link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  * emailjs-com - https://www.emailjs.com/docs/sdk/installation/
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Application-Image
 
-### `npm run build` fails to minify
+![Image of Deployed Application](./public/images/scott-willrich.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+
+## License
+
+None
+
+---
+
+## Contributing
+
+Please report any issues using my contact information below.
+
+---
+
+## Questions
+
+GitHub Profile: https://github.com/swillrich5
+
+Email Address: swillrich@gmail.com
