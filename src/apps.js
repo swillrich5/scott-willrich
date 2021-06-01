@@ -9,11 +9,11 @@ const apps = [
     },
     {
       "id": 2,
-      "name": "Weather Dashboard",
+      "name": "Foodies Digestfo",
       "image": "images/weatherdashboard.png",
-      "description": "Current conditions and five-day forecast for cities around the world.",
-      "repo": "https://github.com/swillrich5/weather-dashboard",
-      "deployed": "https://swillrich5.github.io/weather-dashboard"
+      "description": "An application to help fight the daily struggle of what to make for dinner!",
+      "repo": "https://github.com/Jgreenwell93/Foodies-Digest",
+      "deployed": "https://foodie-digest.herokuapp.com/"
     },
     {
       "id": 3,
