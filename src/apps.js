@@ -9,8 +9,8 @@ const apps = [
     },
     {
       "id": 2,
-      "name": "Foodies Digestfo",
-      "image": "images/weatherdashboard.png",
+      "name": "Foodies Digest",
+      "image": "images/foodies-digest.png",
       "description": "An application to help fight the daily struggle of what to make for dinner!",
       "repo": "https://github.com/Jgreenwell93/Foodies-Digest",
       "deployed": "https://foodie-digest.herokuapp.com/"
