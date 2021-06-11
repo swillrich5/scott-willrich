@@ -17,7 +17,7 @@ const About = () => {
                     The experience gained in HTML, CSS, JavaScript, SQL/NOSQL 
                     databases, and React combined with my degree in Computer 
                     Science and my experience in IT management give me the 
-                    opportunity to grow and become a valuable asset. 
+                    tools to be a valuable asset. 
                 </p>
                 <p className="px-3 text-justify">I'm actively seeking employment in an internship or junior developer role, 
                     so please check out my LinkedIn profile, my GitHub repo, and my resume at the links below.</p>
