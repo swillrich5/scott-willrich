@@ -11,13 +11,13 @@ const About = () => {
                 <p className="px-3 text-justify">
                     After a career in Information Technology Management, 
                     I am seeking a position as a Full Stack Web Developer.  
-                    I am currently pursuing an intensive Web Development Coding 
-                    Certificate at the University of Texas.  While challenging, 
-                    it's been the most fun I've had in a long time.  The experience 
-                    I’m gaining in HTML, CSS, JavaScript, SQL/NOSQL databases, and 
-                    React combined with my earlier degree in Computer Science and my 
-                    experience in IT management give me the opportunity to grow and 
-                    become a valuable asset. 
+                    I recently completed an intensive Web Development boot camp 
+                    at the University of Texas at Austin with an A+ average.  
+                    While challenging, it was the most fun I've had in a long time.  
+                    The experience gained in HTML, CSS, JavaScript, SQL/NOSQL 
+                    databases, and React combined with my degree in Computer 
+                    Science and my experience in IT management give me the 
+                    opportunity to grow and become a valuable asset. 
                 </p>
                 <p className="px-3 text-justify">I'm actively seeking employment in an internship or junior developer role, 
                     so please check out my LinkedIn profile, my GitHub repo, and my resume at the links below.</p>
