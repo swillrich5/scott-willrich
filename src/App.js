@@ -9,8 +9,8 @@ import Portfolio from './components/pages/Portfolio';
 
 function App() {
     return (
-        <div className="App">
-          <Router>
+      <Router>
+          <div className="App">
             <Navbar />
             <div className="container-fluid body-background fill">
               <Switch>
@@ -20,8 +20,8 @@ function App() {
               </Switch>
             </div>
             <Footer />
-          </Router>
         </div>
+      </Router>
     );
 }
 
