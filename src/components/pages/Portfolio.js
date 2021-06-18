@@ -26,7 +26,7 @@ const Portfolio = () => {
                             <h4 className="card-title">{project.name}</h4>
                             <p className="card-text">{project.description}</p>
                             <a href={project.repo} className="btn btn-primary mr-3">Github</a>
-                            <a href="https://swillrich5.github.io/filmbank/" className="btn btn-primary">{project.name}</a>
+                            <a href={project.deployed} target="_blank" className="btn btn-primary">{project.name}</a>
                         </div>
                     </div>
                 ))}
