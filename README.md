@@ -3,7 +3,7 @@
 scott-willrich is an application that hosts my portfolio (Scott Willrich). It uses React
 
 ## Deployed Application
-https://scott-willrich.herokuapp.com/
+https://www.scottwillrich.com
 
 ## GitHub
 
