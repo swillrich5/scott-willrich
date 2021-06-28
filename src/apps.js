@@ -1,4 +1,5 @@
 const apps = [
+
     {
       "id": 1,
       "name": "Film Bank",
@@ -17,14 +18,6 @@ const apps = [
     },
     {
       "id": 3,
-      "name": "Tripster",
-      "image": "images/tripster.png",
-      "description": "An application that captures all of a traveller's plans and information in one place.  Happy traveling!  A full-stack MERN application",
-      "repo": "https://github.com/jtrevz/Tripster/tree/main",
-      "deployed": "https://tripster2021.herokuapp.com/"
-    },
-    {
-      "id": 4,
       "name": "Employee Directory",
       "image": "images/employee-directory.png",
       "description": "An organizational directory of employees that can be sorted and searched by name.  A React application using Bootstrap for styling.",
@@ -32,7 +25,7 @@ const apps = [
       "deployed": "https://employee-directory-2021.netlify.app/"
     },    
     {
-      "id": 5,
+      "id": 4,
       "name": "Password Generator",
       "image": "images/passwordgenerator.png",
       "description": "Based on criteria from the user (password size, character sets to include), a random password is created.",
@@ -40,7 +33,7 @@ const apps = [
       "deployed": "https://swillrich5.github.io/password-generator"
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Fitness Tracker",
         "image": "images/fitness-tracker.png",
         "description": "An application that allows the user to track daily workouts by logging their cardio (running, jogging, etc.) and resistance (weight lifting) workouts. ",
@@ -48,7 +41,7 @@ const apps = [
         "deployed": "https://secure-crag-36323.herokuapp.com/"
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Techno Blog",
       "image": "images/techno-blog.png",
       "description": "a web-based application that allows users to read technical blog posts from other users, comment on them, and post their own blog entries. A full-stack Handlebars application with a MySQL database.",
@@ -56,7 +49,7 @@ const apps = [
       "deployed": "https://boiling-hamlet-77831.herokuapp.com/"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Budget Anywhere",
     "image": "images/budget-anywhere.png",
     "description": "Budget-anywhere is an application that allows the user to track income and expenses on the go, even without an internet connection. A progressive web application (PWA).",
@@ -64,7 +57,7 @@ const apps = [
     "deployed": "https://scott-budget-anywhere.herokuapp.com/"
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Scott Willrich Portfolio",
     "image": "images/scott-willrich-portfolio.png",
     "description": "My portfolio site, written with React.",
