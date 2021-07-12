@@ -1,6 +1,6 @@
 # scott-willrich
 
-scott-willrich is an application that hosts my portfolio (Scott Willrich). It uses React
+scott-willrich is an application that hosts my portfolio (Scott Willrich). It was built using React and uses React's routing to simplify reuse of components and speed up the app's creation and maintenance.
 
 ## Deployed Application
 https://www.scottwillrich.com
