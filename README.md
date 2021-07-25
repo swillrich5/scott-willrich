@@ -59,8 +59,6 @@ The following technology was used to build note-taker:
 
   * Bootstrap v4.6 - https://getbootstrap.com/docs/4.6/getting-started/introduction/
 
-  * react-download-link - https://www.npmjs.com/package/react-download-link
-
   * emailjs-com - https://www.emailjs.com/docs/sdk/installation/
 
 ---
