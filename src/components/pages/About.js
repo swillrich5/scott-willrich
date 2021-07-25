@@ -1,5 +1,5 @@
 import React from 'react'
-import DownloadLink from "react-download-link";
+import Pdf from "./ScottWillrichResume.pdf";
 
 const About = () => {
   return (
@@ -24,11 +24,7 @@ const About = () => {
                 <div className="d-flex justify-content-around mb-3">
                     <a href="https://www.linkedin.com/in/scott-willrich"><i className="fab fa-linkedin fa-5x"></i></a>
                     <a href="https://github.com/swillrich5"><i className="fab fa-github fa-5x"></i></a>
-                    <DownloadLink
-                        label={<i className='far fa-address-card fa-5x' style={{color: "#D4F1F1"}}></i>}
-                        filename="ScottWillrichResume.pdf"
-                        exportFile={() => Promise.resolve("My cached data")}
-                    />
+                    <a href={Pdf}><i className='far fa-address-card fa-5x' style={{color: "#D4F1F1"}}></i></a>
                 </div>   
             </div>
         </div>
