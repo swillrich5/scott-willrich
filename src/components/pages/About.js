@@ -7,7 +7,7 @@ const About = () => {
         <div className="container col-md-6 col-lg-4 py-2 about-container">
             <div className="mx-auto">
                 <h2 className="mt-3 mb-4">Hi, I'm Scott!</h2>
-                <img className="rounded-circle d-block mx-auto mb-3" src="images/Scott.jpg" alt="" />
+                <img className="rounded d-block mx-auto mb-3" src="images/Scott.jpg" alt="" />
                 <p className="px-3 text-justify">
                     After a career in Information Technology Management, 
                     I am seeking a position as a Full Stack Web Developer.  
