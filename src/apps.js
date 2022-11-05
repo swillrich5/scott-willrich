@@ -5,7 +5,7 @@ const apps = [
       "image": "images/marvel-mania-screenshot.png",
       "description": "An app built to explore the Marvel Comics API and to increase my skills with React and Bootstrap.  Still a work in progress, but far enough along to add to my portfolio",
       "repo": "https://github.com/swillrich5/marvel-mania",
-      "deployed": "https://marvel-mania-2021.herokuapp.com/"
+      "deployed": "https://marvel-mania.vercel.app/"
     },
     {
       "id": 2,
@@ -30,14 +30,6 @@ const apps = [
       "description": "Based on criteria from the user (password size, character sets to include), a random password is created.",
       "repo": "https://github.com/swillrich5/password-generator",
       "deployed": "https://swillrich5.github.io/password-generator"
-    },
-    {
-        "id": 6,
-        "name": "Fitness Tracker",
-        "image": "images/fitness-tracker.png",
-        "description": "An application that allows the user to track daily workouts by logging their cardio (running, jogging, etc.) and resistance (weight lifting) workouts. ",
-        "repo": "https://github.com/swillrich5/fitness-tracker",
-        "deployed": "https://fitness-tracker-cqhw0ctqw-swillrich5.vercel.app/"
     },
     {
       "id": 7,
