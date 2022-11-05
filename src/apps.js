@@ -37,7 +37,7 @@ const apps = [
         "image": "images/fitness-tracker.png",
         "description": "An application that allows the user to track daily workouts by logging their cardio (running, jogging, etc.) and resistance (weight lifting) workouts. ",
         "repo": "https://github.com/swillrich5/fitness-tracker",
-        "deployed": "https://secure-crag-36323.herokuapp.com/"
+        "deployed": "https://fitness-tracker-cqhw0ctqw-swillrich5.vercel.app/"
     },
     {
       "id": 7,
