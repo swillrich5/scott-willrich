@@ -32,29 +32,21 @@ const apps = [
       "deployed": "https://swillrich5.github.io/password-generator"
     },
     {
-      "id": 7,
-      "name": "Techno Blog",
-      "image": "images/techno-blog.png",
-      "description": "a web-based application that allows users to read technical blog posts from other users, comment on them, and post their own blog entries. A full-stack Handlebars application with a MySQL database.",
-      "repo": "https://github.com/swillrich5/techno-blog",
-      "deployed": "https://boiling-hamlet-77831.herokuapp.com/"
-  },
-  {
-    "id": 8,
-    "name": "Budget Anywhere",
-    "image": "images/budget-anywhere.png",
-    "description": "Budget-anywhere is an application that allows the user to track income and expenses on the go, even without an internet connection. A progressive web application (PWA).",
-    "repo": "https://github.com/swillrich5/budget-anywhere",
-    "deployed": "https://scott-budget-anywhere.herokuapp.com/"
-  },
-  {
-    "id": 9,
-    "name": "Scott Willrich Portfolio",
-    "image": "images/scott-willrich-portfolio.png",
-    "description": "My portfolio site, written with React.",
-    "repo": "https://github.com/swillrich5/scott-willrich",
-    "deployed": "https://www.scottwillrich.com"
-  }
+      "id": 8,
+      "name": "Budget Anywhere",
+      "image": "images/budget-anywhere.png",
+      "description": "Budget-anywhere is an application that allows the user to track income and expenses on the go, even without an internet connection. A progressive web application (PWA).",
+      "repo": "https://github.com/swillrich5/budget-anywhere",
+      "deployed": "https://budget-anywhere.vercel.app/"
+    },
+    {
+      "id": 9,
+      "name": "Scott Willrich Portfolio",
+      "image": "images/scott-willrich-portfolio.png",
+      "description": "My portfolio site, written with React.",
+      "repo": "https://github.com/swillrich5/scott-willrich",
+      "deployed": "https://www.scottwillrich.com"
+    }
   ];
 
 
