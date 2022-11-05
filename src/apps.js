@@ -1,11 +1,11 @@
 const apps = [
     {
-      "id": 1,
-      "name": "Foodie Digest",
-      "image": "images/foodie-digest-screenshot.png",
-      "description": "An application to help fight the daily struggle of what to make for dinner!  A Handlebars application with a MySQL back end.",
-      "repo": "https://github.com/Jgreenwell93/Foodies-Digest",
-      "deployed": "https://foodie-digest.herokuapp.com/"
+      "id": 3,
+      "name": "Marvel-Mania",
+      "image": "images/marvel-mania-screenshot.png",
+      "description": "An app built to explore the Marvel Comics API and to increase my skills with React and Bootstrap.  Still a work in progress, but far enough along to add to my portfolio",
+      "repo": "https://github.com/swillrich5/marvel-mania",
+      "deployed": "https://marvel-mania-2021.herokuapp.com/"
     },
     {
       "id": 2,
@@ -15,14 +15,6 @@ const apps = [
       "repo": "https://github.com/swillrich5/employee-directory",
       "deployed": "https://employee-directory-2021.netlify.app/"
     },   
-    {
-      "id": 3,
-      "name": "Marvel-Mania",
-      "image": "images/marvel-mania-screenshot.png",
-      "description": "An app built to explore the Marvel Comics API and to increase my skills with React and Bootstrap.  Still a work in progress, but far enough along to add to my portfolio",
-      "repo": "https://github.com/swillrich5/marvel-mania",
-      "deployed": "https://marvel-mania-2021.herokuapp.com/"
-    },
     {
       "id": 4,
       "name": "Film Bank",

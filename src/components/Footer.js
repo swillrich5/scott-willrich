@@ -1,6 +1,6 @@
 import React from 'react';
-import DownloadLink from "react-download-link";
 import '../App.css';
+import Pdf from "./ScottWillrichResume.pdf";
 
 
 const Footer = ({ icon, title }) => {
@@ -13,11 +13,7 @@ const Footer = ({ icon, title }) => {
                 <a href="mailto:swillrich@gmail.com">swillrich@gmail.com</a>
                 <a href="https://github.com/swillrich5">GitHub</a>
                 <a href="https://www.linkedin.com/in/scott-willrich/">LinkedIn</a>
-                <DownloadLink style={{color: "#D4F1F1"}}
-                    label='Resume'
-                    filename="ScottWillrichResume.pdf"
-                    exportFile={() => Promise.resolve("My cached data")}
-                />
+                <a href={Pdf}>Resume</a>
             </div>
         </footer>
     )
