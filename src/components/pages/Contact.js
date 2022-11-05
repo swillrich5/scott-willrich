@@ -13,7 +13,7 @@ const Contact = () => {
     const onContactMessageChange = e => setContactMessage(e.target.value);
 
     const handleContactSubmit = async (e) => {
-        e.preventDefault();
+        // e.preventDefault();
         var templateParams = {
             name: contactName,
             email: contactEmail,
